@@ -9,10 +9,10 @@ export default meta;
 type Story = StoryObj<typeof Header>;
 
 export const Default: Story = {
- args: {
-   text: 'Default Header Text',
-   type: 'default',
- },
+  args: {
+    text: 'Default Header Text',
+    type: 'default',
+  },
 };
 
 export const Custom: Story = {

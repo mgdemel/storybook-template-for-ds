@@ -11,11 +11,11 @@
   --color--blue: blue;
   --color--green: green;
 
-  --color--bright-green-1: #D1FFE7;
-  --color--bright-green-2: #75FEB7;
-  --color--bright-green-3: #19FE87;
-  --color--bright-green-4: #14DD75;
-  --color--bright-green-5: #0B9E51;
+  --color--bright-green-1: #d1ffe7;
+  --color--bright-green-2: #75feb7;
+  --color--bright-green-3: #19fe87;
+  --color--bright-green-4: #14dd75;
+  --color--bright-green-5: #0b9e51;
   --color--bright-green-5: #046331;
 
   /* DIMENSION */
@@ -39,6 +39,6 @@
   --fontweight--normal: normal;
   --fontweight--bold: bold;
 
-  --fontfamily--body: "Lexend Mega", sans-serif;
-  --fontfamily--header: "Big Shoulders Display", sans-serif;
+  --fontfamily--body: 'Lexend Mega', sans-serif;
+  --fontfamily--header: 'Big Shoulders Display', sans-serif;
 }

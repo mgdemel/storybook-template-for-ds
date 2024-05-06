@@ -20,6 +20,7 @@ export const Input: React.FC<InputProps> = ({ value = '', onChange, disabled = f
 
   return (
     <input
+      title={label}
       className={inputClasses}
       disabled={disabled}
       type="text" // Corrected to type="text"
@@ -30,4 +31,3 @@ export const Input: React.FC<InputProps> = ({ value = '', onChange, disabled = f
 };
 
 export default Input;
-

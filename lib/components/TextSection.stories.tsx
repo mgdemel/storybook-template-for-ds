@@ -8,14 +8,14 @@ export default meta;
 
 type Story = StoryObj<typeof TextSection>;
 
-export const Default: Story =  {
+export const Default: Story = {
   args: {
     title: 'Default Title',
     content: 'Default content for the text section.',
   },
 };
 
-export const CustomText: Story =  {
+export const CustomText: Story = {
   args: {
     title: 'Custom Title',
     content: 'Custom content for the text section.',

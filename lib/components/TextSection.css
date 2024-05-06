@@ -1,15 +1,14 @@
 .text-section {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
+}
 
-  .text-section-title {
-    font-size: 22px;
-    margin-bottom: 10px;
-    font-family: var(--fontfamily--header);
-  }
+.text-section-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-family: var(--fontfamily--header);
+}
 
-  .text-section-content {
-    font-size: var(--fontsize--3);
-    font-family: var(--fontfamily--body);
-  }
-
+.text-section-content {
+  font-size: var(--fontsize--3);
+  font-family: var(--fontfamily--body);
+}

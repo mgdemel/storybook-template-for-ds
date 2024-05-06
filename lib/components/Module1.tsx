@@ -4,7 +4,7 @@ import Button, { ButtonProps } from './Button';
 import Logo, { LogoProps } from './Logo';
 import './Module1.css';
 
-interface Module1Props {
+export interface Module1Props {
   textSectionProps: TextSectionProps;
   buttonProps: ButtonProps;
   logoProps: LogoProps;

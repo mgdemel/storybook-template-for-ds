@@ -24,5 +24,5 @@ Default.args = {
   logoProps: {
     src: 'lib/images/logo-one.svg',
     alt: 'Mimmit Koodaa Logo',
-  }
+  },
 };
