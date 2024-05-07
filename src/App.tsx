@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Button, Header, TextSection } from '../dist/index.js';
+import { Button, Form, Header, TextSection } from '../dist/index.js';
 import '../dist/style.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -14,7 +14,8 @@ export function App() {
     <div>
       <Header text="Header" />
       <TextSection title={'Title'} content={'Text area'} />
-      <Button label={'Click here!'} type={'primary'} />
+      <Button label={'Click here!'} type={'default'} />
+      <Form heading="heading" inputs={[]} buttonLabel="submit" />
     </div>
   );
 }

@@ -5,5 +5,7 @@
 /* Components */
 @import './components/Button.css';
 @import './components/Header.css';
-@import './components/Module1.css';
 @import './components/TextSection.css';
+
+/* Modules */
+@import './modules/Module1.css';

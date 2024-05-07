@@ -2,7 +2,7 @@ import { Meta, Story } from '@storybook/react';
 import Module1, { Module1Props } from './Module1';
 
 const meta: Meta<Module1Props> = {
-  title: 'Components/Module1',
+  title: 'Modules/Module1',
   component: Module1,
 };
 
