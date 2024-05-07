@@ -1,22 +1,39 @@
 import Button from '../components/Button';
-import Header from '../components/Header';
+import Input from '../components/Input';
 import TextSection from '../components/TextSection';
 
 export interface FormProps {
-  heading?: string;
-  textBody?: string;
-  inputs: [];
+  heading: string;
+  textBody: string;
   buttonLabel: string;
 }
 
 export const Form = (props: FormProps) => {
-  const { heading, textBody, inputs, buttonLabel } = props;
+  const { heading, textBody, buttonLabel } = props;
   return (
-    <div>
-      {heading && <Header text={heading} />}
-      {textBody && <TextSection title={textBody} content={'Text area'} />}
-      {inputs.map((e) => e)}
-      <Button label={buttonLabel} type={'default'} />
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        width: '100%',
+        padding: '64px 0px',
+      }}
+    >
+      <div style={{ textAlign: 'center' }}>
+        <TextSection title={heading} content={textBody} />
+        <div
+          style={{
+            marginBottom: '32px',
+          }}
+        >
+          <Input value=" Email address"/>
+        </div>
+        <div>
+          <Button label={buttonLabel} type={'primary'} />
+        </div>
+      </div>
     </div>
   );
 };

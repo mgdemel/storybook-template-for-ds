@@ -12,7 +12,7 @@ export default defineConfig({
     dts({ exclude: ['**/*.stories.tsx'] }),
     svgr(),
     ViteRestart({
-      restart: ['lib/components/**'],
+      restart: ['lib/**'],
     }),
   ], //svgr({ include: '**/*.svg' })
   build: {

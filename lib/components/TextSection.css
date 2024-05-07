@@ -1,14 +1,14 @@
 .text-section {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .text-section-title {
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 64px;
+  margin-bottom: 24px;
   font-family: var(--fontfamily--header);
 }
 
 .text-section-content {
-  font-size: var(--fontsize--3);
+  font-size: 24px;
   font-family: var(--fontfamily--body);
 }

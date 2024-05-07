@@ -23,9 +23,14 @@ export const Input: React.FC<InputProps> = ({ value = '', onChange, disabled = f
       title={label}
       className={inputClasses}
       disabled={disabled}
-      type="text" // Corrected to type="text"
+      type="text"
       value={value}
       onChange={handleChange}
+      style={{
+        height: '32px',
+        width: '100%',
+        fontSize: '24px'
+      }}
     />
   );
 };
