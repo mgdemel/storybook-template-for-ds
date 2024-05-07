@@ -1,14 +1,14 @@
 import { Meta, Story } from '@storybook/react';
-import Module1, { Module1Props } from './Module1';
+import Card, { CardProps } from './Card';
 
-const meta: Meta<Module1Props> = {
-  title: 'Modules/Module1',
-  component: Module1,
+const meta: Meta<CardProps> = {
+  title: 'Modules/Card',
+  component: Card,
 };
 
 export default meta;
 
-const Template: Story<Module1Props> = (args) => <Module1 {...args} />;
+const Template: Story<CardProps> = (args) => <Card {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

@@ -2,17 +2,17 @@ import React from 'react';
 import TextSection, { TextSectionProps } from '../components/TextSection';
 import Button, { ButtonProps } from '../components/Button';
 import Logo, { LogoProps } from '../components/Logo';
-import './Module1.css';
+import './Card.css';
 
-export interface Module1Props {
+export interface CardProps {
   textSectionProps: TextSectionProps;
   buttonProps: ButtonProps;
   logoProps: LogoProps;
 }
 
-const Module1: React.FC<Module1Props> = ({ textSectionProps, buttonProps, logoProps }) => {
+const Card: React.FC<CardProps> = ({ textSectionProps, buttonProps, logoProps }) => {
   return (
-    <div className="module1">
+    <div className="Card">
       <TextSection {...textSectionProps} />
       <Button {...buttonProps} />
       <Logo {...logoProps} />
@@ -20,4 +20,4 @@ const Module1: React.FC<Module1Props> = ({ textSectionProps, buttonProps, logoPr
   );
 };
 
-export default Module1;
+export default Card;

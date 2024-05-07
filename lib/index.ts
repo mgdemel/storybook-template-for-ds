@@ -9,8 +9,8 @@ import TextSection, { TextSectionProps } from './components/TextSection';
 
 // Modules
 import Form, { FormProps } from './modules/Form';
-import Module1, { Module1Props } from './modules/Module1';
+import Card, { CardProps } from './modules/Card';
 
-export { Button, Form, Header, Input, Logo, Module1, TextSection };
+export { Button, Form, Header, Input, Logo, Card, TextSection };
 
-export type { ButtonProps, FormProps, HeaderProps, InputProps, LogoProps, Module1Props, TextSectionProps };
+export type { ButtonProps, FormProps, HeaderProps, InputProps, LogoProps, CardProps, TextSectionProps };
