@@ -11,12 +11,55 @@
   --color--blue: blue;
   --color--green: green;
 
+  --color--pink-1: #f8ebf9;
+  --color--pink-2: #f3ddf4;
+  --color--pink-3: #eeceef;
+  --color--pink-4: #cfb2d0;
+  --color--pink-5: #927f94;
+  --color--pink-5: #413842;
+
+  --color--turquoise-1: #cdeeef;
+  --color--turquoise-2: #66cbd0;
+  --color--turquoise-3: #02a9b1;
+  --color--turquoise-4: #037c83;
+  --color--turquoise-5: #015357;
+  --color--turquoise-5: #002c30;
+
+  --color--yellow-1: #fffeeb;
+  --color--yellow-2: #fff999;
+  --color--yellow-3: #fef233;
+  --color--yellow-4: #ddd22a;
+  --color--yellow-5: #9e961b;
+  --color--yellow-5: #635e0d;
+
   --color--bright-green-1: #d1ffe7;
   --color--bright-green-2: #75feb7;
   --color--bright-green-3: #19fe87;
   --color--bright-green-4: #14dd75;
   --color--bright-green-5: #0b9e51;
   --color--bright-green-5: #046331;
+
+  --color--neutral-1: #ffffff;
+  --color--neutral-2: #e8eaed;
+  --color--neutral-3: #b1b5be;
+  --color--neutral-4: #808794;
+  --color--neutral-5: #3d475a;
+  --color--neutral-6: #162035;
+  --color--neutral-7: #000000;
+
+  --color--danger-1: #ffefee;
+  --color--danger-2: #fab0af;
+  --color--danger-3: #e3423f;
+  --color--danger-4: #ae0200;
+  --color--danger-5: #560100;
+  --color--danger-5: #210100;
+
+  --color--success-1: #e5fff0;
+  --color--success-2: #a0f3c3;
+  --color--success-3: #1db55d;
+  --color--success-4: #025b26;
+  --color--success-5: #002610;
+  --color--success-5: #011409;
 
   /* DIMENSION */
   --dimension--1: 0.25rem;
@@ -26,18 +69,29 @@
   --dimension--5: 2rem;
 
   /* FONT */
-  --lineheight--1: 1rem;
-  --lineheight--2: 1.5rem;
-  --lineheight--3: 2rem;
-
-  --fontsize--1: 0.875rem;
-  --fontsize--2: 1rem;
+  --fontsize--8: 4rem;
+  --fontsize--7: 3.25rem;
+  --fontsize--6: 2.5rem;
+  --fontsize--5: 2rem;
+  --fontsize--4: 1.5rem;
   --fontsize--3: 1.125rem;
+  --fontsize--2: 1rem;
+  --fontsize--1: 0.875rem;
+
+  --lineheight--8: 4.75rem;
+  --lineheight--7: 3.75rem;
+  --lineheight--6: 3rem;
+  --lineheight--5: 2.5rem;
+  --lineheight--4: 2rem;
+  --lineheight--3: 1.75rem;
+  --lineheight--2: 1.5rem;
+  --lineheight--1: 1.125rem;
 
   --letterspacing--normal: normal;
 
   --fontweight--normal: normal;
   --fontweight--bold: bold;
+  --fontweight--light: lighter;
 
   --fontfamily--body: 'Lexend Mega', sans-serif;
   --fontfamily--header: 'Big Shoulders Display', sans-serif;

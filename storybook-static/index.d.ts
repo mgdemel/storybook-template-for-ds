@@ -5,5 +5,6 @@ import Logo, { LogoProps } from './components/Logo';
 import TextSection, { TextSectionProps } from './components/TextSection';
 import Form, { FormProps } from './modules/Form';
 import Card, { CardProps } from './modules/Card';
-export { Button, Form, Header, Input, Logo, Card, TextSection };
+import Typography from './sections/Typography';
+export { Button, Form, Header, Input, Logo, Card, TextSection, Typography };
 export type { ButtonProps, FormProps, HeaderProps, InputProps, LogoProps, CardProps, TextSectionProps };

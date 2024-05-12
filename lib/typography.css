@@ -1,7 +1,64 @@
-.title-big {
+h1, h2, h3, h4, h5 {
   font-family: var(--fontfamily--header);
+}
+
+h1, h2, h3 {
+  font-weight: var(--fontweight--bold);
+}
+
+h4, h5 {
+  font-weight: var(--fontweight--normal);
+}
+
+h1 {
+  font-size: var(--fontsize--8);
+  line-height: var(--lineheight--8);
+}
+
+h2 {
+  font-size: var(--fontsize--7);
+  line-height: var(--lineheight--7);
+}
+
+h3 {
+  font-size: var(--fontsize--6);
+  line-height: var(--lineheight--6);
+}
+
+h4 {
+  font-size: var(--fontsize--5);
+  line-height: var(--lineheight--5);
+}
+
+h5 {
+  font-size: var(--fontsize--4);
+  line-height: var(--lineheight--4);
+}
+
+body, strong, small {
+  font-family: var(--fontfamily--body);
+}
+
+body {
+  font-weight: var(--fontweight--light);
   font-size: var(--fontsize--3);
   line-height: var(--lineheight--3);
-  letter-spacing: var(--letterspacing--normal);
+}
+
+strong {
   font-weight: var(--fontweight--bold);
+  font-size: var(--fontsize--3);
+  line-height: var(--lineheight--3);
+}
+
+.body2 {
+  font-weight: var(--fontweight--normal);
+  font-size: var(--fontsize--2);
+  line-height: var(--lineheight--2);
+}
+
+small {
+  font-weight: var(--fontweight--normal);
+  font-size: var(--fontsize--1);
+  line-height: var(--lineheight--1);
 }
