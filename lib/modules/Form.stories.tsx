@@ -14,6 +14,5 @@ export const Default = Template.bind({});
 Default.args = {
   heading: 'Default Title',
   textBody: 'Default text body',
-  inputs: [],
   buttonLabel: 'Default button',
 };
