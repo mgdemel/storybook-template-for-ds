@@ -1,5 +1,5 @@
 import React from 'react';
-/*import './Input.css'; // Import CSS file for Input*/
+import './Input.css';
 
 export type InputType = 'default' | 'primary';
 
@@ -21,16 +21,12 @@ export const Input: React.FC<InputProps> = ({ value = '', onChange, disabled = f
   return (
     <input
       title={label}
+      placeholder={label}
       className={inputClasses}
       disabled={disabled}
       type="text"
       value={value}
       onChange={handleChange}
-      style={{
-        height: '32px',
-        width: '100%',
-        fontSize: '24px'
-      }}
     />
   );
 };

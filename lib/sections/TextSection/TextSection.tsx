@@ -7,14 +7,14 @@ export interface TextSectionProps {
 }
 
 export const TextSection = (props: TextSectionProps) => {
-  const { type = 'title', title = '', content = '' } = props;
+  const { type, title, content } = props;
 
   const textSectionClasses = ['text-section', `text-section--${type}`].join(' ');
 
   return (
     <div className={textSectionClasses}>
       <h2 className="text-section-title">{title}</h2>
-      <p className="text-section-content">{content}</p>
+      <p className="body2 text-section-paragraph">{content}</p>
     </div>
   );
 };

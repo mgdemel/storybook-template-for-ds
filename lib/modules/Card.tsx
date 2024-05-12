@@ -1,6 +1,6 @@
 import React from 'react';
-import TextSection, { TextSectionProps } from '../components/TextSection';
-import Button, { ButtonProps } from '../components/Button';
+import TextSection, { TextSectionProps } from '../sections/TextSection/TextSection';
+import Button, { ButtonProps } from '../components/Button/Button';
 import Logo, { LogoProps } from '../components/Logo';
 import './Card.css';
 

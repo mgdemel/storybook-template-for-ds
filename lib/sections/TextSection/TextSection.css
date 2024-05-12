@@ -1,0 +1,12 @@
+.text-section {
+  margin-bottom: var(--dimension--4);
+}
+
+.text-section-title {
+  margin-top: 0px;
+  margin-bottom: var(--dimension--4);
+}
+
+.text-section-paragraph {
+  margin: 0px;
+}

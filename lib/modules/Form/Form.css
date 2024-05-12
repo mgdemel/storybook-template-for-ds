@@ -1,0 +1,8 @@
+.form {
+    background-color: var(--color--neutral-2);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: var(--dimension--9) 0px;
+  }

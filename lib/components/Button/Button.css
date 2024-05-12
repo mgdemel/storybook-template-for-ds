@@ -1,15 +1,14 @@
 .button {
   display: inline-flex;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 30px;
   border-width: 1px;
   appearance: none;
   background-color: var(--color--bright-green);
   cursor: pointer;
-  padding: 12px 60px;
+  padding: 14px 100px;
   font-family: var(--fontfamily--header);
-  font-size: 24px;
-  margin-bottom: var(--dimension--3);
+  font-size: var(--fontsize--4);
 }
 
 .button.disabled {
@@ -19,7 +18,8 @@
 }
 
 .button--default {
-  color: var(--color--black);
+  color: var(--color--white);
+  background-color: var(--color--black);
   border-color: var(--color--black);
 }
 

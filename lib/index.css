@@ -3,9 +3,11 @@
 @import './typography.css';
 
 /* Components */
-@import './components/Button.css';
+@import './components/Button/Button.css';
 @import './components/Header.css';
-@import './components/TextSection.css';
+
+/* Sections */
+@import './sections/TextSection/TextSection.css';
 
 /* Modules */
 @import './modules/Card.css';
